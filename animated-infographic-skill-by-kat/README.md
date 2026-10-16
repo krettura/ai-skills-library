@@ -16,7 +16,7 @@ A Claude skill that turns your expertise into animated, on-brand LinkedIn infogr
 
 ## Install
 
-1. Download this folder as a zip.
+1. [Download the skill zip](https://github.com/krettura/ai-skills-library/raw/main/downloads/animated-infographic-skill-by-kat.zip) (no GitHub account needed).
 2. In Claude, turn on code execution (Settings > Capabilities).
 3. Upload the zip under Skills.
 4. Start a chat with "I want to create an infographic to teach..."
