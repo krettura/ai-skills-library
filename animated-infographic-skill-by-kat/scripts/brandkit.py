@@ -131,9 +131,13 @@ def install_font(spec, fonts_dir):
     if got:
         spec["files"] = [{"weight": w, "path": os.path.basename(p)} for w, p in got]
         return f"{spec['family']}: downloaded weights {', '.join(str(w) for w, _ in got)}"
-    shutil.copy(os.path.join(SKILL_DIR, "assets", "fonts", "Inter.ttf"), os.path.join(fonts_dir, "Inter.ttf"))
+    got = [] if spec["family"] == "Inter" else fetch_fontsource("Inter", fonts_dir)
     note = f"{spec['family']}: NOT FOUND as an open font. Using Inter. Ask for the font file (.ttf/.otf/.woff2)."
-    spec["family"], spec["files"] = "Inter", [{"weight": "100 900", "path": "Inter.ttf"}]
+    if got:
+        spec["family"], spec["files"] = "Inter", [{"weight": w, "path": os.path.basename(p)} for w, p in got]
+    else:
+        spec["family"], spec["files"] = "system-ui", []
+        note += " Inter could not be downloaded either, so the system font is used."
     return note
 
 def font_faces(b, brand_dir):
