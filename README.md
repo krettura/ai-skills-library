@@ -1,5 +1,5 @@
 # ai-skills-library
-AI skills and prompt systems built by an ex-teacher turned product marketer. Practitioner-grade workflows for content, marketing, and enablement teams making the shift to AI-assisted work.
+AI skills and prompt systems built by an ex-teacher turned product marketer and AI transformation leader. Practitioner-grade workflows for content, marketing, and enablement teams, as well as job seekers, making the shift to AI-assisted work.
 
 ## Skills
 
