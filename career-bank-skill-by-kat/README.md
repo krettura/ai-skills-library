@@ -20,6 +20,8 @@ Scaffolded by default. It stops at each stage, shows you the work, and asks befo
 
 ## Install
 
+Newer to Claude? The [Start Here guide](https://military-sycamore-1d6.notion.site/Start-Here-From-a-career-brain-dump-to-tailored-applications-41d6fdcf51a4813b9de1d07c1d7ffa2f) walks through all of this in plain language, with troubleshooting for the places people get stuck.
+
 1. [Download the skill zip](https://github.com/krettura/ai-skills-library/raw/main/downloads/career-bank-skill-by-kat.zip) (no GitHub account needed).
 2. [Duplicate the Career Bank Notion template](https://military-sycamore-1d6.notion.site/Career-Portfolio-Accomplishments-Bank-Template-41d6fdcf51a481b1b785c263bbd500a5).
 3. Connect Notion in Claude under Settings > Connectors, so it can read and write your bank. Optional, there is a file fallback.
@@ -40,5 +42,7 @@ It will not hide keywords in white text or embed instructions aimed at AI screen
 - Resume format defaults to reverse-chronological, with hybrid for career changers and gaps. It asks during onboarding and stores your preference.
 - The format, ATS, and authenticity standards follow current resume guidance and are worth re-checking once a year.
 - The bank only stays useful if you feed it. Fifteen minutes a quarter.
+
+Full walkthrough and setup guide: [Start Here](https://military-sycamore-1d6.notion.site/Start-Here-From-a-career-brain-dump-to-tailored-applications-41d6fdcf51a4813b9de1d07c1d7ffa2f)
 
 Built by Kat Rettura.
