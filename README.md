@@ -6,3 +6,4 @@ AI skills and prompt systems built by an ex-teacher turned product marketer. Pra
 | Skill | What it does |
 |---|---|
 | [animated-infographic-skill-by-kat](animated-infographic-skill-by-kat/) | Turns your expertise into animated, on-brand LinkedIn infographics with your logo hopping through the content |
+| [career-bank-skill-by-kat](career-bank-skill-by-kat/) | Interviews you to build a Career Bank in Notion, then gap-checks job postings and writes tailored resumes and cover letters from it |
